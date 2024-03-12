@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/adaptation.css" />
+    <link type="image/x-icon" href="icons/logo.svg" rel="shortcut icon" />
+    <link type="image/x-icon" href="icons/logo.svg" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Raleway:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>German cars</title>
+  </head>
+  <body>
+    <div class="backgroundVideo">
+      <video src="video/audi.mov" autoplay loop muted></video>
+    </div>
+
+    <div class="body">
+      <!-- HEADER -->
+      <header>
+        <div class="header">
+          <div class="hContentArea">
+            <div class="logo">
+              <img src="icons/logo.svg" alt="#" class="logo" />
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav>
+              <ul class="nav">
+                <li class="navItem">
+                  <a href="index.html" class="navLink" id="currentPag"
+                    >Главная</a
+                  >
+                </li>
+                <li class="navItem">
+                  <a href="html/price.html" class="navLink">Стоимость услуг</a>
+                </li>
+                <li class="navItem">
+                  <a href="html/carsForSale.html" class="navLink"
+                    >Актуальные предложения</a
+                  >
+                </li>
+                <li class="navItem">
+                  <a href="html/contacts.html" class="navLink">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- BURGER -->
+            <div class="burger">
+              <div class="burgerLine burgerLine1"></div>
+              <div class="burgerLine burgerLine2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BURGER MENU -->
+        <div class="burgerMenu">
+          <nav class="b_nav">
+            <ul class="b_nav">
+              <li class="b_navItem">
+                <a href="index.html" class="b_navLink" id="b_currentPag"
+                  >Главная</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="html/price.html" class="b_navLink">Стоимость услуг</a>
+              </li>
+              <li class="b_navItem">
+                <a href="html/carsForSale.html" class="b_navLink"
+                  >Актуальные предложения</a
+                >
+              </li>
+              <li class="b_navItem">
+                <a href="html/contacts.html" class="b_navLink">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- WELCOME SECTION -->
+      <section>
+        <div class="welcomeSec">
+          <div class="titleBox">
+            <h1 class="title" id="firstTitle">
+              Lorem ipsum <br />
+              dolor sit amet,
+            </h1>
+            <h2 class="title" id="secondTitle">
+              consectetur adipiscing elit. <br />
+              Venenatis eget sit
+            </h2>
+          </div>
+          <div class="arrowBox">
+            <a href="#sec1">
+              <div class="welcomeArrow">
+                <svg
+                  width="130"
+                  height="70"
+                  viewBox="0 0 130 70"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="welcomeArrowSVG"
+                    d="M5 5L65 65L125 5"
+                    stroke="white"
+                    stroke-opacity="0.5"
+                    stroke-width="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 1 -->
+      <section>
+        <div class="section" id="sec1">
+          <div class="contentArea">
+            <h2 class="secTitle">О нас</h2>
+            <div class="sec1Line"></div>
+            <p class="sec1Description">
+              Наша компания занимается поиском, подбором, осмотром, проверкой,
+              покупкой и пригоном автомобилей из Германии. Даже в Европе рынок
+              подержанных автомобилей скрывает множество подводных камней. Мы
+              хорошо знаем особенности немецкого рынка, а также все необходимые
+              тонкости в документах и законодательстве. Поэтому нам всегда
+              удается подобрать для клиента качественный автомобиль по его
+              запросу.
+            </p>
+            <div class="sec1Line"></div>
+
+            <!-- SCILLS CONTAINER -->
+            <div class="scillsContainer">
+              <div class="sec1Box" id="iconBox1">
+                <div class="sec1BoxIcon">
+                  <img src="icons/icon-speed.svg" alt="#" />
+                </div>
+                <h4 class="sec1BoxTitle">Скорость</h4>
+                <p class="sec1BoxDescription">
+                  Хорошие предложения на вторичном рынке уходят быстро, поэтому
+                  мы знаем как важна скорость. Мы не ездим в Германию за
+                  автомобилями, мы всегда здесь. Наш офис находится в Берлине.
+                  Отсюда мы можем быстро добраться до хорошего предложения по
+                  прославленным немецким автобанам и успеть купить его первыми.
+                </p>
+              </div>
+              <div class="sec1Box" id="iconBox2">
+                <div class="sec1BoxIcon">
+                  <img src="icons/icon-pro.svg" alt="#" />
+                </div>
+                <h4 class="sec1BoxTitle">Проффесионализм</h4>
+                <p class="sec1BoxDescription">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel
+                  sed in nunc ullamcorper curabitur id congue sit elit. Tellus
+                  et suspendisse arcu auctor magna purus congue dictum risus.
+                </p>
+              </div>
+              <div class="sec1Box" id="iconBox3">
+                <div class="sec1BoxIcon">
+                  <img src="icons/icon-individual.svg" alt="#" />
+                </div>
+                <h4 class="sec1BoxTitle">Индивидуальный подход</h4>
+                <p class="sec1BoxDescription">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel
+                  sed in nunc ullamcorper curabitur id congue sit elit. Tellus
+                  et suspendisse arcu auctor magna purus congue dictum risus.
+                </p>
+              </div>
+              <div class="sec1Box" id="iconBox4">
+                <div class="sec1BoxIcon">
+                  <img src="icons/icon-support.svg" alt="#" />
+                </div>
+                <h4 class="sec1BoxTitle">Постоянная поддержка</h4>
+                <p class="sec1BoxDescription">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel
+                  sed in nunc ullamcorper curabitur id congue sit elit. Tellus
+                  et suspendisse arcu auctor magna purus congue dictum risus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2 USLUGI -->
+      <section>
+        <div class="secTitleBox" id="sec2TitleBox">
+          <h2 class="secTitle" id="sec2Title">Наши услуги</h2>
+        </div>
+
+        <div class="sectionBox" id="secBox1">
+          <div class="sectionBoxRight">
+            <!-- LINE -->
+            <div class="theLine"></div>
+
+            <h4 class="sectionBoxRightTitle">Поиск авто</h4>
+            <div class="pointBox">
+              <div class="thePoint thePointRight" id="thePoint1"></div>
+              <div class="pointLine pointLineRight" id="pointLine1"></div>
+            </div>
+
+            <p
+              class="sectionBoxRightDescription closed"
+              id="sectionBoxDescription1"
+            >
+              Коротко о том что мы работаем с найденными авто или можем помочь
+              их найти (Текст) ссылка на сайт для поиска Pretium cursus purus
+              eu, elementum amet, massa blandit nunc. Ultrices imperdiet in
+              nullam amet a. Quisque sit fermentum suscipit ipsum et. Rutrum
+              purus lorem blandit non eleifend. Iaculis gravida tincidunt sit
+              fusce quam ornare egestas vitae gravida. Justo tortor placerat
+              rhoncus massa, pharetra dignissim pellentesque eget magna. Eu nisl
+              sed risus fringilla dolor amet. Quam cursus cursus ipsum morbi.
+              Cursus hendrerit sit sed iaculis neque. Massa luctus fames nulla
+              mi in sapien tincidunt. Consectetur nam nibh odio ut. Cras
+              consectetur purus praesent pellentesque ut vitae et non. Posuere
+              in venenatis tincidunt ut leo odio tincidunt lacus. Urna sed
+              varius nibh morbi semper pulvinar tristique nunc. At amet aenean
+              ornare congue lectus. Pellentesque sed faucibus egestas integer
+              ullamcorper magna sit at. Mattis nisl eu nulla nunc diam. Amet,
+              massa nec leo non pretium donec quam. Convallis amet risus mi
+              sollicitudin tincidunt nullam tincidunt dictum etiam. Tempus
+              lectus risus purus neque viverra nec. Posuere nam lobortis
+              volutpat commodo sed iaculis fermentum vulputate. Egestas bibendum
+              malesuada sagittis, tristique. Integer at pellentesque pharetra
+              integer libero cursus ullamcorper.
+            </p>
+            <div class="btn" id="btnLinkContacts">Связаться с нами</div>
+          </div>
+        </div>
+        <div class="sectionBox" id="secBox2">
+          <div class="sectionBoxLeft">
+            <h4 class="sectionBoxLeftTitle">Компьютерная диагностика</h4>
+            <div class="pointBox pointBoxLeft">
+              <div class="pointLine pointLineLeft" id="pointLine2"></div>
+              <div class="thePoint thePointLeft" id="thePoint2"></div>
+            </div>
+            <p
+              class="sectionBoxLeftDescription closed"
+              id="sectionBoxDescription2"
+            >
+              Компьютнрная диагностика, это подключение автомобиля к
+              специальному оборудованию, которое позволяет заглянуть во все
+              внутренние параметры автомобиля, его двигателя и трансмисии.
+              Компьютеная диагностика так-же покажет какие у автомобиля были
+              зафиксированы ошибки во время его експлуатации и какие ошибки все
+              еще активны на момент осмотра.Современные автомобили фиксируют и
+              сохряняют в память даже такие незначительные поломомки как
+              перегоревшая лампочка. И даже если лампочку после этого заменили,
+              автомобиль запомнит эту ошибку, а с помощью компьютерной
+              диагностики мы сможем её обнаружить.Подключение автомобиля к
+              комьютеру может сэкономить Вам много времени и денег, заведомо
+              обнаружив серьезную неисправность
+            </p>
+            <h4 class="sectionBoxLeftTitle">
+              Проверка лакокрасочного покрытия
+            </h4>
+            <div class="pointBox pointBoxLeft">
+              <div class="pointLine pointLineLeft" id="pointLine3"></div>
+              <div class="thePoint thePointLeft" id="thePoint3"></div>
+            </div>
+            <p
+              class="sectionBoxLeftDescription closed"
+              id="sectionBoxDescription3"
+            >
+              Проверка толщины лакокрасочного покрытия позволяет определить
+              находится автомобиль в заводской окраске или был перекрашен.
+              Возможно автомобиль был подкрашен частично, а проверка толщины
+              слоя поможет выяснить были ли это серьезные повреждения с глубоким
+              восстановлением или просто мелкий подкрас царапин
+            </p>
+          </div>
+        </div>
+        <div class="sectionBox" id="secBox3">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">Проверка документов</h4>
+            <div class="pointBox">
+              <div class="thePoint thePointRight" id="thePoint4"></div>
+              <div class="pointLine pointLineRight" id="pointLine4"></div>
+            </div>
+            <p
+              class="sectionBoxRightDescription closed"
+              id="sectionBoxDescription4"
+            >
+              При покупке автомобиля с пробегом всегда возникает так много
+              вопросов на которые так мало ответов,,, Проверка истории
+              автомобиля позволяет ответить на многие из них! Сколько у
+              автомобиля было владельцев? В какой стране его покупали новым?
+              Есть ли на автомобиле какие-либо штрафы или ограничения? Да и в
+              конце-концов подленный ли у него пробег? Иногда проверка истории
+              автомобиля позволяет вовремя обнаружить неприятные моменты из за
+              которых следует отказаться от его покупки,
+            </p>
+            <h4 class="sectionBoxRightTitle">Тест драйв</h4>
+            <div class="pointBox">
+              <div class="thePoint thePointRight" id="thePoint5"></div>
+              <div class="pointLine pointLineRight" id="pointLine5"></div>
+            </div>
+            <p
+              class="sectionBoxRightDescription closed"
+              id="sectionBoxDescription5"
+            >
+              При покупке автомобиля с пробегом всегда возникает так много
+              вопросов на которые так мало ответов,,, Проверка истории
+              автомобиля позволяет ответить на многие из них! Сколько у
+              автомобиля было владельцев? В какой стране его покупали новым?
+              Есть ли на автомобиле какие-либо штрафы или ограничения? Да и в
+              конце-концов подленный ли у него пробег? Иногда проверка истории
+              автомобиля позволяет вовремя обнаружить неприятные моменты из за
+              которых следует отказаться от его покупки,
+            </p>
+          </div>
+        </div>
+        <div class="sectionBox" id="secBox4">
+          <div class="sectionBoxLeft">
+            <h4 class="sectionBoxLeftTitle">Фото-видео отчет</h4>
+            <div class="pointBox pointBoxLeft">
+              <div class="pointLine pointLineLeft" id="pointLine6"></div>
+              <div class="thePoint thePointLeft" id="thePoint6"></div>
+            </div>
+            <p
+              class="sectionBoxLeftDescription closed"
+              id="sectionBoxDescription6"
+            >
+              Проверка толщины лакокрасочного покрытия позволяет определить
+              находится автомобиль в заводской окраске или был перекрашен.
+              Возможно автомобиль был подкрашен частично, а проверка толщины
+              слоя поможет выяснить были ли это серьезные повреждения с глубоким
+              восстановлением или просто мелкий подкрас царапин.
+            </p>
+            <h4 class="sectionBoxLeftTitle">Полное сопровождение</h4>
+            <div class="pointBox pointBoxLeft">
+              <div class="pointLine pointLineLeft" id="pointLine7"></div>
+              <div class="thePoint thePointLeft" id="thePoint7"></div>
+            </div>
+            <p
+              class="sectionBoxLeftDescription closed"
+              id="sectionBoxDescription7"
+            >
+              Проверка толщины лакокрасочного покрытия позволяет определить
+              находится автомобиль в заводской окраске или был перекрашен.
+              Возможно автомобиль был подкрашен частично, а проверка толщины
+              слоя поможет выяснить были ли это серьезные повреждения с глубоким
+              восстановлением или просто мелкий подкрас царапин.
+            </p>
+            <div class="btnBox">
+              <div class="btn" id="btnLinkContacts">Заказать просмотр</div>
+              <div class="btnWatch">
+                <div class="btnWatchIcon">
+                  <svg
+                    class="polygon"
+                    width="23"
+                    height="26"
+                    viewBox="0 0 23 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.5 13.0001L1 24.2585L1 1.74182L20.5 13.0001Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="btnWatchText">Смотреть</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionBox" id="secBox5">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">Помощ с документами</h4>
+            <div class="pointBox">
+              <div class="thePoint thePointRight" id="thePoint8"></div>
+              <div class="pointLine pointLineRight" id="pointLine8"></div>
+            </div>
+            <p
+              class="sectionBoxRightDescription closed"
+              id="sectionBoxDescription8"
+            >
+              Так-же мы помогаем во всех вопросах связанных с документами.
+              Переоформление автомобиля Возврат НДС после покупки И многое
+              другое Свяжитесь с нами любым удобным дял вас способом, Pretium
+              cursus purus eu, elementum amet, massa blandit nunc. Ultrices
+              imperdiet in nullam amet a. Quisque sit fermentum suscipit ipsum
+              et. Rutrum purus lorem blandit non eleifend. Iaculis gravida
+              tincidunt sit fusce quam ornare egestas vitae gravida. Justo
+              tortor placerat rhoncus massa, pharetra dignissim pellentesque
+              eget magna. Eu nisl sed risus fringilla dolor amet. Quam cursus
+              cursus ipsum morbi. Cursus hendrerit sit sed iaculis neque. Massa
+              luctus fames nulla mi in sapien tincidunt. Consectetur nam nibh
+              odio ut.
+            </p>
+            <div class="btn" id="btnLinkContacts">Связаться с нами</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3 PRICE -->
+      <section>
+        <div class="secTitleBox" id="sec3TitleBox">
+          <h2 class="secTitle" id="sec3Title">Стоимость</h2>
+        </div>
+
+        <div class="sectionBox" id="sec3Box1">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">От чего зависит цена</h4>
+            <p class="sectionBoxRightDescription">
+              Pretium cursus purus eu, elementum amet, massa blandit nunc.
+              Ultrices imperdiet in nullam amet a. Quisque sit fermentum
+              suscipit ipsum et. Rutrum purus lorem blandit non eleifend.
+              Iaculis gravida tincidunt sit fusce quam ornare egestas vitae
+              gravida. Justo tortor placerat rhoncus massa, pharetra dignissim
+              pellentesque eget magna. Eu nisl sed risus fringilla dolor amet.
+              Quam cursus cursus ipsum morbi. Cursus hendrerit sit sed iaculis
+              neque. Massa luctus fames nulla mi in sapien tincidunt.
+              Consectetur nam nibh odio ut.
+            </p>
+            <div class="btn" id="btnLinkCalculator">Калькулятор</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4 ACTUAL CARS -->
+      <section>
+        <div class="secTitleBox" id="sec4TitleBox">
+          <h2 class="secTitle" id="sec4Title">Авто в наличии</h2>
+        </div>
+
+        <div class="sectionBox" id="sec4Box1">
+          <div class="sectionBoxRight">
+            <h4 class="sectionBoxRightTitle">Актуальные предложения</h4>
+            <p class="sectionBoxRightDescription">
+              Также у нас есть авто в наличии у этого есть много плюсов
+              посмотреть их можно тут Pretium cursus purus eu, elementum amet,
+              massa blandit nunc. Ultrices imperdiet in nullam amet a. Quisque
+              sit fermentum suscipit ipsum et. Rutrum purus lorem blandit non
+              eleifend. Iaculis gravida tincidunt sit fusce quam ornare egestas
+              vitae gravida. Justo tortor placerat rhoncus massa, pharetra
+              dignissim pellentesque eget magna. Eu nisl sed risus fringilla
+              dolor amet. Quam cursus cursus ipsum morbi. Cursus hendrerit sit
+              sed iaculis neque. Massa luctus fames nulla mi in sapien
+              tincidunt.
+            </p>
+            <div class="btn" id="btnLinkCars">Авто в наличии</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5 QUETIONS? -->
+      <section>
+        <div class="section" id="sec5">
+          <h2 class="sec5Title">Остались вопросы?</h2>
+          <div class="btn" id="btnLinkContacts">Контакты</div>
+        </div>
+      </section>
+
+      <!-- LINE -->
+      <!-- <div class="theLine"></div> -->
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer">
+          <div class="f_contentArea">
+            <div class="f_leftBox">
+              <div class="f_logo">
+                <img src="/icons/logo.svg" alt="#" class="f_logo" />
+              </div>
+              <a href="tel:+00 000 000 000" class="f_text">+00 000 000 000</a>
+              <a href="mailto: email@gmail.com" class="f_text"
+                >email@gmail.com</a
+              >
+              <p class="f_text">Pretium cursus purus eu, elementum amet</p>
+            </div>
+            <div class="f_rightBox">
+              <div class="socialBox f_socialBox">
+                <div class="f_icon" id="f_icon1">
+                  <img src="/icons/TG.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon2">
+                  <img src="/icons/WU.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <div class="f_icon" id="f_icon3">
+                  <img src="/icons/YT.svg" alt="#" class="f_icon_icon" />
+                </div>
+                <!-- <div class="f_icon" id="f_icon4">
+                  <img src="/icons/VB.svg" alt="#" class="f_icon_icon" />
+                </div> -->
+                <div class="f_icon" id="f_icon5">
+                  <img src="/icons/FB.svg" alt="#" class="f_icon_icon" />
+                </div>
+              </div>
+              <div class="anyartBox">
+                <p class="anyartText">production by</p>
+                <div class="anyartLogo">
+                  <img
+                    src="/img/AnyArt_Logo_White.svg"
+                    alt="#"
+                    class="anyartLogo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+      <script src="js/header.js"></script>
+      <script src="js/footer.js"></script>
+      <script
+        type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
+      ></script>
+      <script>
+        $(document).ready(function () {
+          // плавное перемещение страницы к нужному блоку
+          $("a").click(function () {
+            elementClick = $(this).attr("href");
+            destination = $(elementClick).offset().top - 70;
+            $("body,html").animate({ scrollTop: destination }, 700);
+          });
+        });
+      </script>
+    </div>
+  </body>
+</html>
